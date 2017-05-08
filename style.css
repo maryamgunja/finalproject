@@ -17,8 +17,9 @@ img.logo {
 	background-repeat: no-repeat;
 	width: 100%;
 }
-.container {
+.main {
 	width: 100%;
+	margin: 0;
 }
 
 .nav-tabs {
@@ -54,22 +55,72 @@ img.logo {
 
 
 
-/*--------------------JUNK-------------------*/
+/*--------------------HOME CSS--------------------*/
 
 h1 {
-	margin-top: 300px;
+	text-align: center;
+	font-size: 40px;
 }
 
 
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
 
 
-/*--------------------HOME CSS--------------------*/
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+
+.sign {
+    padding: 16px;
+    width: 50%;
+
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
 
 .home {
 	width: 100%;
 	height: 606px;
 	margin: 0 auto;
-	margin-top: 171px;
+	margin-top: 170px;
 	background-image: url('http://wallpapercave.com/wp/lwfQm84.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -78,7 +129,43 @@ h1 {
 }
 
 
+
 /*--------------------ARTIST CSS-----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------NEWS CSS--------------------*/
 

@@ -11,7 +11,7 @@
 <body>
 
 	<nav class="navbar navbar-default navbar-fixed-top">
- 	 	<div class="container">
+ 	 	<div class="container main">
  	 	
  	 		<img class="logo" src="kronos3.png">
   			<ul class="nav nav-tabs">
@@ -23,9 +23,23 @@
  	 	</div>
 	</nav>
 
-	<div class="jumbotron home">
-  		<h1>Hello, world!</h1>
-  		<!-- Button trigger modal -->
+	<div class="home">
+  		<h1>Join Us</h1>
+ 
+  		<form action="/action_page.php">
+			<div class="container sign">
+	  			<label><b>Email</b></label>
+	    		<input type="text" placeholder="Enter Email" name="email" required>
+	    		<label><b>Password</b></label>
+	    		<input type="password" placeholder="Enter Password" name="psw" required>
+	    		<label><b>Repeat Password</b></label>
+	    		<input type="password" placeholder="Repeat Password" name="psw-repeat" required></p>
+				<div class="clearfix">
+	      			<button type="button"  class="cancelbtn">Cancel</button>
+	      		<button type="submit" class="signupbtn">Sign Up</button>
+	    		</div>
+	  		</div>
+		</form>
 
 	</div>
 
