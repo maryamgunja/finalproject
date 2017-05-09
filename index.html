@@ -5,13 +5,15 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
 	
 <body>
 
 	<nav class="navbar navbar-default navbar-fixed-top">
- 	 	<div class="container">
- 	 		<img alt="logo" src="kronos3.png">
+ 	 	<div class="container main">
+ 	 	
+ 	 		<img class="logo" src="kronos3.png">
   			<ul class="nav nav-tabs">
 	  			<li role="presentation" class="active"><a href="index.html">Home</a></li>
 	  			<li role="presentation"><a href="artist.html">Artist</a></li>
@@ -22,7 +24,22 @@
 	</nav>
 
 	<div class="home">
-		
+  		<h1>Join Us</h1>
+ 
+  		<form action="/action_page.php">
+			<div class="container sign">
+	  			<label><b>Email</b></label>
+	    		<input type="text" placeholder="Enter Email" name="email" required>
+	    		<label><b>Password</b></label>
+	    		<input type="password" placeholder="Enter Password" name="psw" required>
+	    		<label><b>Repeat Password</b></label>
+	    		<input type="password" placeholder="Repeat Password" name="psw-repeat" required></p>
+				<div class="clearfix">
+	      			<button type="button"  class="cancelbtn">Cancel</button>
+	      		<button type="submit" class="signupbtn">Sign Up</button>
+	    		</div>
+	  		</div>
+		</form>
 
 	</div>
 
@@ -30,7 +47,11 @@
 
 
 
-	<script src="jQuery.js"></script>
+
+	<nav class="navbar navbar-default navbar-fixed-bottom footer">
+
+	</nav>
+	<script src="jQuery.js"></script>	
 	<script src="scripts.js"></script>
 </body>
 
