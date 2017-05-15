@@ -1,4 +1,8 @@
 /*--------------------NAV CSS--------------------*/
+body{
+	font-family: 'Allerta Stencil', sans-serif;
+}
+
 img.logo {
 	width: 160px;
 	height: 160px;
@@ -137,7 +141,7 @@ button {
 
 /*--------------------ARTIST CSS-----------------------*/
 body.artist {
-	background-image: url('https://dtqtu30aguuf7.cloudfront.net/wp-content/uploads/2016/07/banner_evox_fundo.jpg');
+	background-image: url('http://wallpapercave.com/wp/lwfQm84.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -151,6 +155,7 @@ body.artist {
 .w3-content p {
 	color: red;
 }
+
 .w3-display-container {
 	margin-top: 170px;
 	height:595px;
@@ -167,58 +172,25 @@ button.w3-button {
 	margin: 10px;
 }
 
-img.jayz {
+img.gal {
 	margin: 0px 20px 5px 0px;
 	border:3px solid red;
-}
-
-
-
-div.one {
-	background-image: url('https://everamblings.files.wordpress.com/2012/07/rocnation.jpg');
-	background-size: 100% 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 800px;
-	margin: 0;
-	margin-top: -20px;
+	width: 300px;
+	height: 350px;
 
 }
-div.two {
-	background-image: url('https://s-media-cache-ak0.pinimg.com/736x/5b/62/2b/5b622bd4c9d96145c2b5468a73a2b270.jpg');
-	background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
+
+
+
+div.img {
+	background-color: rgba(0,0,0,0.7);
 	width: 100%;
-	height: 100%;
+	height: 700px;
 	margin: 0;
 	margin-top: -20px;
 
 }
 
-div.three {
-	background-image: url('http://eskipaper.com/images/microphone-wallpaper-2.jpg');
-	background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	margin-top: -20px;
-
-}
-
-div.four {
-	background-image: url('https://cdn-cloudflare.pelfusion.com/wp-content/uploads/2010/06/I_love_music.jpg');
-	background-size: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	margin-top: -20px;
-}
 div.cust a {
 	display: inline;
 	float: right;
@@ -236,11 +208,26 @@ div.slidec img {
 }
 
 h2 {
+	color: red;
 	margin: -10px 0px 5px 0px;
 	padding: 0;
 	text-align: center;
 	font-size: 50px;
 }
+
+.btn-primary {
+	color: red;
+	background-color: rgba(0,0,0,0.7);
+}
+
+iframe {
+	float: left;
+	height: 100px;
+}
+
+
+
+
 
 
 
@@ -270,5 +257,33 @@ h2 {
 
 
 /*--------------------NEWS CSS--------------------*/
+.news {
+	margin: 0 auto;
+	margin-top: 180px;
+	width: 90%;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------ABOUT CSS--------------------*/
